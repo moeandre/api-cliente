@@ -34,7 +34,30 @@ User access using username and password
 
     ```js
     {
-        "success": true 
+        "success":true,
+        "errorMessage":null,
+        "nome":"Nome Completo",
+        "cpfCnpj":"Documento Formatado"
+    }
+    ```
++ Response 400 (application/json)
+
+    ```js
+    {
+        "success":false,
+        "errorMessage":"Mensagem de Erro",
+        "nome":"",
+        "cpfCnpj":""
+    }
+    ```
++ Response 401 (application/json)
+
+    ```js
+    {
+        "success":false,
+        "errorMessage":"Mensagem de Erro",
+        "nome":"",
+        "cpfCnpj":""
     }
     ```
 
