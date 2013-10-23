@@ -1,0 +1,19 @@
+HOST: http://localhost/
+
+--- MobileCliente ---
+
+---
+Welcome to the our sample API documentation. All comments can be written in (support [Markdown](http://daringfireball.net/projects/markdown/syntax) syntax)
+---
+
+--
+Login
+The following is a section of resources related to the shopping cart
+--
+
+POST /rest/login/
+> Content-Type: application/x-www-form-urlencoded
+{"cpf":"29603105864","password":"andre"}
+< 200
+< Content-Type: application/json
+{"success":true,"errorMessage":null,"nome":"André Mauricio Garcia","cpfCnpj":"296.031.058-64"}
